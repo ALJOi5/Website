@@ -1,10 +1,10 @@
 body {
-    background: rgba(0, 128, 85, 0.5) /* Green background with 30% opacity */
+    background: hsl(0, 0%, 21%) /* Green background with 30% opacity */
   }
   
   h2{  
     font-weight: bold;
-    color: #000c50;
+    color: #00106d;
     font-size: 48px;
     text-align: center;
     font-family: 'Inter', sans-serif;
