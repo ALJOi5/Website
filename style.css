@@ -57,7 +57,7 @@ h6{
   transform: scale(1);
 }
 .social-icons a:hover i{
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 100px 100px 150px #000000;
   z-index: 2;
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.5);
