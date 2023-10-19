@@ -15,5 +15,3 @@ h3,h4{
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
-.link { color: #ffffff; } /* CSS link color (red) */
-.link:hover { color: #b1ffb1; } /* CSS link hover (green) */
