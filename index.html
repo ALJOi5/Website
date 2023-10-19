@@ -1,43 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Latest Incident</title>
-    <style>
-        /* Define your CSS styles here */
-    </style>
+<title>Aljaž Škvarča</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
-    <h1>Latest Incident</h1>
-    <div id="incident-details">
-        Loading latest incident...
-    </div>
 
-    <script>
-        // JavaScript to fetch and display the latest incident
-        const incidentDetails = document.getElementById("incident-details");
+<h2>Živ, jest sm Aljaž.</h2>
+<h3>Sm lastnik Crklajnskega oblačka.</h3>
+<hr>
+<h3>Moje strani:</h3>
+<h4><a href="https://files.skvarca.net/">files.skvarca.net</a></h4>
+<h4><a href="https://speedtest.skvarca.net/">speedtest.skvarca.net</a></h4>
+<img width="600px" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Cerkno_hdr2.jpg" alt="slika">
+<hr>
 
-        // Define the callback function
-        function handleIncidentData(data) {
-            // Process and display the incident data
-            const incidentHTML = 
-                <h2>${data.title}</h2>
-                <p><strong>Date:</strong> ${data.date}</p>
-                <p><strong>Location:</strong> ${data.location}</p>
-                <p>${data.description}</p>
-            ;
-
-            incidentDetails.innerHTML = incidentHTML;
-        }
-
-        // Define the URL of the incident data source with a callback parameter
-        const incidentDataURL = "https://spin3.sos112.si/api/javno/ODRSS/true?callback=handleIncidentData";
-
-        // Create a script element to load the JSONP data
-        const script = document.createElement("script");
-        script.src = incidentDataURL;
-
-        // Add the script to the document
-        document.body.appendChild(script);
-    </script>
 </body>
 </html>
