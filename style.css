@@ -18,7 +18,13 @@ h3,h4{
 h5{
   font-weight: bold;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+}
+h6{
+  font-weight: bold;
+  color: #ffffff; 
+  text-align: center;
+  font-family: 'Inter', sans-serif; 
 }
