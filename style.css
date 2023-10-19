@@ -1,6 +1,7 @@
-div {
+body {
     background: rgba(0, 128, 85, 0.5) /* Green background with 30% opacity */
   }
+  
   h2{  
     font-weight: bold;
     color: #ffae19be;
