@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Aljaž Škvarča</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Latest Incident</title>
+    <style>
+        /* Define your CSS styles here */
+    </style>
 </head>
 <body>
+    <h1>Latest Incident</h1>
+    <div id="incident-details">
+        Loading latest incident...
+    </div>
 
-<h2>Živ, jest sm Aljaž.</h2>
-<h3>Sm lastnik files.skvarca.net AKA crklajnskega oblačka.</h3>
+    <script>
+        // JavaScript to fetch and display the latest incident
+        const incidentDetails = document.getElementById("incident-details");
 
+        // Define the callback function
+        function handleIncidentData(data) {
+            // Process and display the incident data
+            const incidentHTML = 
+                <h2>${data.title}</h2>
+                <p><strong>Date:</strong> ${data.date}</p>
+                <p><strong>Location:</strong> ${data.location}</p>
+                <p>${data.description}</p>
+            ;
 
+            incidentDetails.innerHTML = incidentHTML;
+        }
+
+        // Define the URL of the incident data source with a callback parameter
+        const incidentDataURL = "https://spin3.sos112.si/api/javno/ODRSS/true?callback=handleIncidentData";
+
+        // Create a script element to load the JSONP data
+        const script = document.createElement("script");
+        script.src = incidentDataURL;
+
+        // Add the script to the document
+        document.body.appendChild(script);
+    </script>
 </body>
 </html>
