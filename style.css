@@ -8,6 +8,8 @@ body {
     font-size: 48px;
     text-align: center;
     font-family: 'Inter', sans-serif;
+    text-decoration: underline overline white;
+    }
 }
 h3,h4{
     font-weight: bold;
