@@ -15,22 +15,5 @@ h3,h4{
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
-/* unvisited link */
-a:link {
-    color: rgb(255, 255, 255);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(90, 255, 90);
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+.link { color: #ffffff; } /* CSS link color (red) */
+.link:hover { color: #b1ffb1; } /* CSS link hover (green) */
