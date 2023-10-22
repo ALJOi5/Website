@@ -4,7 +4,7 @@ body {
   
   h2{  
     font-weight: bold;
-    color: #D8DEE9 /*#ffffff*/;
+    color: #ECEFF4/*#D8DEE9*/ /*#ffffff*/;
     font-size: 55px;
     text-align: center;
     font-family: 'Inter', sans-serif;
