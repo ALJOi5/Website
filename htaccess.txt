@@ -1,2 +1,0 @@
-Options +MultiViews
-ErrorDocument 404 /index.html
